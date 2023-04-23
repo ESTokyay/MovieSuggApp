@@ -1,0 +1,12 @@
+T:\Net_Project\MovieSuggApp\DATA\bin\Debug\net5.0\DATA.deps.json
+T:\Net_Project\MovieSuggApp\DATA\bin\Debug\net5.0\DATA.dll
+T:\Net_Project\MovieSuggApp\DATA\bin\Debug\net5.0\DATA.pdb
+T:\Net_Project\MovieSuggApp\DATA\obj\Debug\net5.0\DATA.csproj.AssemblyReference.cache
+T:\Net_Project\MovieSuggApp\DATA\obj\Debug\net5.0\DATA.GeneratedMSBuildEditorConfig.editorconfig
+T:\Net_Project\MovieSuggApp\DATA\obj\Debug\net5.0\DATA.AssemblyInfoInputs.cache
+T:\Net_Project\MovieSuggApp\DATA\obj\Debug\net5.0\DATA.AssemblyInfo.cs
+T:\Net_Project\MovieSuggApp\DATA\obj\Debug\net5.0\DATA.csproj.CoreCompileInputs.cache
+T:\Net_Project\MovieSuggApp\DATA\obj\Debug\net5.0\DATA.dll
+T:\Net_Project\MovieSuggApp\DATA\obj\Debug\net5.0\ref\DATA.dll
+T:\Net_Project\MovieSuggApp\DATA\obj\Debug\net5.0\DATA.pdb
+T:\Net_Project\MovieSuggApp\DATA\bin\Debug\net5.0\ref\DATA.dll

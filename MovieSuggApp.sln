@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieSuggApp", "MovieSuggApp\MovieSuggApp.csproj", "{A7F4A9E6-DDCC-431F-8A08-29E5BAD9F0B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DATA", "DATA\DATA.csproj", "{8CB25946-E851-4401-9B76-11A18076386D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{1415367D-630D-448F-8E37-25D8BD533575}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7F4A9E6-DDCC-431F-8A08-29E5BAD9F0B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7F4A9E6-DDCC-431F-8A08-29E5BAD9F0B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7F4A9E6-DDCC-431F-8A08-29E5BAD9F0B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7F4A9E6-DDCC-431F-8A08-29E5BAD9F0B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CB25946-E851-4401-9B76-11A18076386D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CB25946-E851-4401-9B76-11A18076386D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CB25946-E851-4401-9B76-11A18076386D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CB25946-E851-4401-9B76-11A18076386D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1415367D-630D-448F-8E37-25D8BD533575}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1415367D-630D-448F-8E37-25D8BD533575}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1415367D-630D-448F-8E37-25D8BD533575}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1415367D-630D-448F-8E37-25D8BD533575}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
