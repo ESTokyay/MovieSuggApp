@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using DAL.Context;
 using DAL.MovieRest.MovieRestClient;
 using DAL.MovieRest.MovieRestRequest;
 using DATA.Entity;

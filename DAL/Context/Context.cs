@@ -1,27 +1,12 @@
-﻿using System;
-using System.IO;
-using DATA.Entity;
+﻿using DATA.Entity;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
 
-namespace DAL
+namespace DAL.Context
 {
     public class MovieContext: DbContext
     {
-        public MovieContext(DbContextOptions<MovieContext> options)
-            : base(options)
+        public MovieContext(DbContextOptions<MovieContext> options) : base(options)
         { }
-        
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            var configuration = new ConfigurationBuilder()
-                .SetBasePath(Path.Combine(Directory.GetCurrentDirectory(), "../MovieSuggApp"))
-                .AddJsonFile("appsettings.Development.json")
-                .Build();            
-            var connString = configuration.GetSection("MovieSuggDb").GetSection("ConnParam").Value;
-
-            optionsBuilder.UseSqlServer(connString);
-        }
         
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
