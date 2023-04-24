@@ -36,7 +36,7 @@ namespace DAL.Worker
 
                     if (veriVarMi.Any())
                     {
-                        page = veriVarMi.LastOrDefault().page+1;
+                        page = veriVarMi.OrderByDescending(e => e.page).FirstOrDefault().page+1;
                     }
                     else
                     {
